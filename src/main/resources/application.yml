@@ -12,5 +12,5 @@ wx:
     configs:
       - appId: wx7834dc191378a252
         secret: d122217936541f396454677c68579b03
-        token: 123456 # 接口配置里的Token值
-        aesKey: QpCtk67z1GmHDGH3lYLLljxsbwYmpjJaVpkkXUHoUBo # 接口配置里的EncodingAESKey值
+        token: 5f6e779a4d1043dba588afee04985286 # 接口配置里的Token值
+        aesKey: ZynfLkPjWQrPpnhJiy930XEXhr1N9iwI0nnWR3WBjSc # 接口配置里的EncodingAESKey值
