@@ -1,4 +1,9 @@
-FROM openjdk:8-jdk-alpine
-VOLUME /tmp
-ADD weixin-java-mp-demo-springboot-1.0.0-SNAPSHOT.jar app.jar
-ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
+FROM philoyui/talib-jdk:6.0
+
+ENV LANG en_US.UTF-8
+
+ADD *.jar app.jar
+
+EXPOSE 8080
+
+CMD ["java", "-jar", "app.jar","--spring.profiles.active=product"]
